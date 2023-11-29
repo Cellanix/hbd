@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
 *, html {
     box-sizing: border-box;
     margin: 0;
@@ -5,7 +6,7 @@
   }
   
   body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Reenie Beanie', cursive;
   }
   
   .song {
@@ -20,6 +21,10 @@
     text-align: center;
     visibility: hidden;
     width: 100vw;
+    font-family: 'Reenie Beanie', cursive;
+    background-image: url("/img/background.jpg");
+    background-size: cover;
+    background-position: center;
   }
   
   .container > div {
@@ -59,17 +64,7 @@
   .text-box span {
     visibility: hidden;
   }
-  
-  .text-box .fake-btn {
-    background-color: rgb(21, 161, 237);
-    border-radius: 3px;
-    bottom: -50px;
-    color: #fff;
-    padding: .5rem 1rem;
-    position: absolute;
-    right: 5px;
-  }
-  
+
   .five p {
     font-size: 2rem;
     left: 0;
@@ -106,13 +101,11 @@
     display: inline-block;
     height: 350px;
     max-width: 100%;
-    /* height: auto; */
   }
   
   .six .hat {
     left: 41.5%;
     position: absolute;
-    /* transform: scale(0.1); */
     top: -35%;
     width: 80px;
   }
@@ -123,11 +116,11 @@
   }
   
   .baloons img:nth-child(even) {
-    left: -10%;
+    left: 10%;
   }
   
   .baloons img:nth-child(odd) {
-    right: -10%;
+    right: 10%;
   }
   
   .baloons img:nth-child(3n + 0) {
@@ -281,10 +274,5 @@
   
     .wish h5 {
       font-size: 1.4rem;
-    }
-  
-    .nine p {
-      font-size: 1.5rem;
-      font-weight: lighter;
     }
   }
