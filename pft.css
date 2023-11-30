@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,500&display=swap');
 *, html {
     box-sizing: border-box;
     margin: 0;
@@ -6,7 +6,7 @@
   }
   
   body {
-    font-family: 'Reenie Beanie', cursive;
+    font-family: 'Ubuntu', cursive;
   }
   
   .song {
@@ -21,8 +21,8 @@
     text-align: center;
     visibility: hidden;
     width: 100vw;
-    font-family: 'Reenie Beanie', cursive;
-    background-image: url("/img/background.jpg");
+    font-family: 'Ubuntu', cursive;
+    background-image: url("img/background.jpg");
     background-size: cover;
     background-position: center;
   }
@@ -90,7 +90,6 @@
     font-size: 15rem;
   }
   
-  
   .six {
     position: relative;
     top: 10vh;
@@ -104,9 +103,9 @@
   }
   
   .six .hat {
-    left: 41.5%;
+    left: 50%;
     position: absolute;
-    top: -35%;
+    top: -50%;
     width: 80px;
   }
   
@@ -248,11 +247,6 @@
   
     .four .text-box {
       width: 90%;
-    }
-  
-    .text-box .fake-btn {
-      bottom: -38px;
-      right: 5px;
     }
   
     .idea-5 span {
